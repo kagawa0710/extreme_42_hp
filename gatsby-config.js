@@ -1,6 +1,9 @@
 const theme = require('./src/settings/theme');
 
 module.exports = {
+  pathPrefix = {
+    pathPrefix: `https://kagawa0710.github.io/extreme_42_hp/`
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-jss',
