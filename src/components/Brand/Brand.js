@@ -115,7 +115,7 @@ class Component extends React.Component {
           onLinkStart={onLinkStart}
           onLinkEnd={onLinkEnd}
         >
-          <span className={classes.title}>SoulExtract</span>
+          <span className={classes.title}>Extreme</span>
           <svg
             ref={ref => (this.svgElement = ref)}
             className={classes.svg}

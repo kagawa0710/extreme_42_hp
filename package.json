@@ -7,10 +7,9 @@
   "scripts": {
     "lint": "eslint ./src",
     "develop": "gatsby develop --host 0.0.0.0 --port 14000",
-    // "build": "gatsby build",
     "server": "NODE_ENV=production PORT=14000 HOST=127.0.0.1 node server.js",
     "deploy": "gh-pages -d build",
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths"
   },
   "dependencies": {
     "@helcor/window-sizes": "^1.0.0-beta.8",
@@ -21,7 +20,7 @@
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-jss": "^2.0.7",
     "gatsby-plugin-layout": "^1.0.14",
-    "gatsby-plugin-manifest": "^2.25",
+    "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "helmet": "^3.16.0",
     "hoist-non-react-statics": "^3.3.0",
