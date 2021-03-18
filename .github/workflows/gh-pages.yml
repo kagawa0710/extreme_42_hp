@@ -25,7 +25,7 @@ jobs:
           ${{ runner.os }}-node-
 
     - name: install
-      run: npm ci
+      run: npm install
 
     - name: format
       run: npm run format
