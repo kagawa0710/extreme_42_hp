@@ -1,7 +1,7 @@
 const theme = require('./src/settings/theme');
 
 module.exports = {
-  pathPrefix: `/`,
+  pathPrefix: `./src/pages/index.js`,
   plugins: [
     {
       resolve: 'gatsby-plugin-jss',
