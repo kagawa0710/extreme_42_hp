@@ -9,7 +9,7 @@
     "develop": "gatsby develop --host 0.0.0.0 --port 14000",
     "server": "NODE_ENV=production PORT=14000 HOST=127.0.0.1 node server.js",
     "deploy": "gh-pages -d build",
-    "build": "gatsby build --prefix-paths"
+    "build": "gatsby build"
   },
   "dependencies": {
     "@helcor/window-sizes": "^1.0.0-beta.8",

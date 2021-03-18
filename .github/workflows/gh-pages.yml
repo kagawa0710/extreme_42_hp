@@ -1,43 +1,72 @@
+# This workflow will do a clean install of node dependencies
+# and run the test/build commands for `npm run ci`
+
 name: github pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main, next ]
+  pull_request:
+    branches: [ main, next ]
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.15]
+
     steps:
     - uses: actions/checkout@v2
-
-    - name: setup node
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci && npm run ci
 
-    - name: Cache dependencies
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
 
-    - name: install
-      run: npm install
+# name: github pages
 
-    # - name: format
-    #   run: npm run format
+# on:
+#   push:
+#     branches:
+#       - main
 
-    # - name: test
-    #   run: npm run test
+# jobs:
+#   build-deploy:
+#     runs-on: ubuntu-18.04
+#     steps:
+#     - uses: actions/checkout@v2
 
-    - name: build
-      run: npm run build
+#     - name: setup node
+#       uses: actions/setup-node@v1
+#       with:
+#         node-version: '12.x'
 
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+#     - name: Cache dependencies
+#       uses: actions/cache@v1
+#       with:
+#         path: ~/.npm
+#         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+#         restore-keys: |
+#           ${{ runner.os }}-node-
+
+#     - name: install
+#       run: npm install
+
+#     # - name: format
+#     #   run: npm run format
+
+#     # - name: test
+#     #   run: npm run test
+
+#     - name: build
+#       run: npm run build
+
+#     - name: deploy
+#       uses: peaceiris/actions-gh-pages@v3
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
+#         publish_dir: ./public
