@@ -1,7 +1,7 @@
 const theme = require('./src/settings/theme');
 
 module.exports = {
-  pathPrefix: `./src/pages/index.js`,
+  pathPrefix: `/extreme_42_hp`,
   plugins: [
     {
       resolve: 'gatsby-plugin-jss',
