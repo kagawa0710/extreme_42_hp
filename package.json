@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "GNUv3",
-  "homepage": "https://kagawa0710.github.io/extreme_42",
+  "homepage": "https://kagawa0710.github.io/extreme_42_hp/",
   "scripts": {
     "lint": "eslint ./src",
     "develop": "gatsby develop --host 0.0.0.0 --port 14000",
@@ -30,7 +30,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
-    "react-jss": "^8.6.1"
+    "react-jss": "^8.6.1",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "all-contributors-cli": "^6.4.0",

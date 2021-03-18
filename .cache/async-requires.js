@@ -2,6 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---cache-dev-404-page-js": () => import("/Users/kagawayuukana/42tokyo/extreme_42/hp/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("/Users/kagawayuukana/42tokyo/extreme_42/hp/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("/Users/kagawayuukana/42tokyo/extreme_42/hp/src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-activities-js": () => import("/Users/kagawayuukana/42tokyo/extreme_42/hp/src/pages/activities.js" /* webpackChunkName: "component---src-pages-activities-js" */),
