@@ -27,11 +27,11 @@ jobs:
     - name: install
       run: npm install
 
-    - name: format
-      run: npm run format
+    # - name: format
+    #   run: npm run format
 
-    - name: test
-      run: npm run test
+    # - name: test
+    #   run: npm run test
 
     - name: build
       run: npm run build
