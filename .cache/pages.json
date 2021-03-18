@@ -25,11 +25,6 @@
         "path": "/activities/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-pages-member-js",
         "jsonName": "member-2f2",
         "path": "/member/"
