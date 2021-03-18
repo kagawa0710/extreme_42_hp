@@ -8,7 +8,7 @@
     "lint": "eslint ./src",
     "develop": "gatsby develop --host 0.0.0.0 --port 14000",
     "server": "NODE_ENV=production PORT=14000 HOST=127.0.0.1 node server.js",
-    "deploy": "gatsby build && cp -pvr public/* ../ && git add ../ && git commit -m 'Deploy to production' && git push",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build"
   },
   "dependencies": {
