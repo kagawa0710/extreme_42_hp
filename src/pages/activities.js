@@ -59,7 +59,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='https://fanlink.to/circalgorithm' target='circalgorithm'>
                                 <img
-                                    alt='Soul Extract Circadian Algorithm album cover'
+                                    alt='pampkin event image'
                                     src='/extreme_42_hp/images/pampkin.png'
                                 />
                             </Link>
