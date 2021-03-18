@@ -60,7 +60,7 @@ class activities extends React.Component {
                             <Link href='https://fanlink.to/circalgorithm' target='circalgorithm'>
                                 <img
                                     alt='Soul Extract Circadian Algorithm album cover'
-                                    src='/images/pampkin.png'
+                                    src='/extreme_42_hp/images/pampkin.png'
                                 />
                             </Link>
                         </Fader>
@@ -81,7 +81,7 @@ class activities extends React.Component {
                             <Link href='https://fanlink.to/circalgorithm' target='circalgorithm'>
                                 <img
                                     alt='Soul Extract Circadian Algorithm album cover'
-                                    src='/images/atSotakesan.jpeg'
+                                    src='/extreme_42_hp/images/atSotakesan.jpeg'
                                 />
                             </Link>
                         </Fader>

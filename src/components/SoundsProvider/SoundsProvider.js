@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { createSounds as createSoundsModule } from '../../tools/createSounds';
 import { createPlayer as createPlayerModule } from '../../tools/createPlayer';
-import { SoundsContext } from '../SoundsContext';
+import { SoundsContext } from '../extreme_42_hp/soundsContext';
 
 class Component extends React.PureComponent {
   static propTypes = {
@@ -54,7 +54,7 @@ class Component extends React.PureComponent {
     return (
       <SoundsContext.Provider value={sounds}>
         {children}
-      </SoundsContext.Provider>
+      </extreme_42_hp/soundsContext.Provider>
     );
   }
 }

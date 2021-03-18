@@ -4,6 +4,6 @@ module.exports = {
   keywords: 'soul extract, member, alternative electronic rock, cinematic elements, fixt, fixt roster, science fiction',
   url: 'https://member.com',
   twitter: '@member',
-  seoImage: 'https://member.com/images/background.jpg',
+  seoImage: 'https://member.com/extreme_42_hp/images/background.jpg',
   color: '#000000'
 };

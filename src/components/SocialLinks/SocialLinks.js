@@ -111,7 +111,7 @@ class Component extends React.PureComponent {
         <A href='https://open.spotify.com/artist/1cEPAqNFhmARDe0HgKOD3h' title='Spotify' target='spotify'>
           <span className='mdi mdi-spotify' />
         </A>
-        <A href='https://soundcloud.com/42_extreme' title='SoundCloud' target='soundcloud'>
+        <A href='https://extreme_42_hp/soundcloud.com/42_extreme' title='SoundCloud' target='soundcloud'>
           <span className='mdi mdi-soundcloud' />
         </A>
         <A href='https://www.facebook.com/42_extreme' title='Facebook' target='facebook'>

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 
-import { SoundsContext } from '../../components/SoundsContext';
+import { SoundsContext } from '../../components/extreme_42_hp/soundsContext';
 
 function withSounds () {
   return Inner => {
