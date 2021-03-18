@@ -1,72 +1,43 @@
-# This workflow will do a clean install of node dependencies
-# and run the test/build commands for `npm run ci`
-
 name: github pages
 
 on:
   push:
-    branches: [ main, next ]
-  pull_request:
-    branches: [ main, next ]
+    branches:
+      - main
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.15]
-
+  build-deploy:
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+
+    - name: setup node
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci && npm run ci
+        node-version: '12.x'
 
+    - name: Cache dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
 
-# name: github pages
+    - name: install
+      run: npm install
 
-# on:
-#   push:
-#     branches:
-#       - main
+    # - name: format
+    #   run: npm run format
 
-# jobs:
-#   build-deploy:
-#     runs-on: ubuntu-18.04
-#     steps:
-#     - uses: actions/checkout@v2
+    # - name: test
+    #   run: npm run test
 
-#     - name: setup node
-#       uses: actions/setup-node@v1
-#       with:
-#         node-version: '12.x'
+    - name: build
+      run: npm run build
 
-#     - name: Cache dependencies
-#       uses: actions/cache@v1
-#       with:
-#         path: ~/.npm
-#         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-#         restore-keys: |
-#           ${{ runner.os }}-node-
-
-#     - name: install
-#       run: npm install
-
-#     # - name: format
-#     #   run: npm run format
-
-#     # - name: test
-#     #   run: npm run test
-
-#     - name: build
-#       run: npm run build
-
-#     - name: deploy
-#       uses: peaceiris/actions-gh-pages@v3
-#       with:
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
-#         publish_dir: ./public
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public

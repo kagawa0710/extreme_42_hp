@@ -4,10 +4,12 @@ var plugins = [{
     },{
       plugin: require('/Users/kagawayuukana/42tokyo/extreme_42/hp/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('/Users/kagawayuukana/42tokyo/extreme_42/hp/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Soul Extract","short_name":"Soul Extract","start_url":"/","background_color":"#000000","theme_color":"#000000","display":"standalone","orientation":"portrait","icon":"src/images/favicon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"95ea5cff012f971ed864a05d4505500e"},
-    },{
+  },
+  // {
+  //     plugin: require('/Users/kagawayuukana/42tokyo/extreme_42/hp/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+  //     options: {"plugins":[],"name":"Soul Extract","short_name":"Soul Extract","start_url":"/","background_color":"#000000","theme_color":"#000000","display":"standalone","orientation":"portrait","icon":"src/images/favicon.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"95ea5cff012f971ed864a05d4505500e"},
+  // },
+  {
       plugin: require('/Users/kagawayuukana/42tokyo/extreme_42/hp/node_modules/gatsby-plugin-layout/gatsby-ssr'),
       options: {"plugins":[],"component":"/Users/kagawayuukana/42tokyo/extreme_42/hp/src/layouts/Template/index.js"},
     },{
