@@ -7,7 +7,7 @@ import sounds from '../../settings/extreme_42_hp/sounds';
 import { SoundsProvider } from '../extreme_42_hp/soundsProvider';
 
 const Component = ({ children }) => (
-  <>
+  <SoundsProvider>
     <Helmet>
       <html lang='en' />
 
@@ -52,6 +52,7 @@ const Component = ({ children }) => (
     <SoundsProvider sounds={sounds}>
       {children}
     </SoundsProvider>
+  </SoundsProvider>
 );
 
 Component.displayName = 'Layout';
