@@ -51,8 +51,7 @@ const Component = ({ children }) => (
     </Helmet>
     <SoundsProvider sounds={sounds}>
       {children}
-    </extreme_42_hp/soundsProvider>
-  </>
+    </SoundsProvider>
 );
 
 Component.displayName = 'Layout';
