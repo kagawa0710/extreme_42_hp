@@ -15,7 +15,13 @@ module.exports = [
         message: `kusoru dayo`,
         image: 'https://pbs.twimg.com/profile_images/1320210198036762624/bJuKGt3H.jpg',
         link: 'https://twitter.com/skurosu42'
-    }
+    },
+    {
+        intra_name: 'hiwata',
+        message: `Annual income 300 million`,
+        image: 'https://twitter.com/airgira23/status/1371093141516738562/photo/1',
+        link: 'https://twitter.com/airgira23'
+    },
 
   // templete
   // {
