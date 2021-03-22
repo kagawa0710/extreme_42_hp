@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import meta from '../../settings/meta';
 import sounds from '../../settings/sounds';
-import { SoundsProvider } from '..//soundsProvider';
+import { SoundsProvider } from '../soundsProvider';
 
 const Component = ({ children }) => (
   <SoundsProvider>
