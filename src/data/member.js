@@ -19,8 +19,14 @@ module.exports = [
     {
         intra_name: 'hiwata',
         message: `Annual income 300 million`,
-        image: 'https://twitter.com/airgira23/status/1371093141516738562/photo/1',
+        image: 'https://pbs.twimg.com/media/EwcZ77QVcAEJJeN?format=jpg&name=large',
         link: 'https://twitter.com/airgira23'
+    },
+    {
+        intra_name: 'kyuki',
+        message: `In hyougo`,
+        image: '/extreme_42_hp/images/kyuki.png',
+        link: ''
     },
 
   // templete
@@ -28,6 +34,7 @@ module.exports = [
         // name: '',
         // intra_name: '',
         // message: ``,
+        // image: '',
         // link: ''
   // },
 ]
