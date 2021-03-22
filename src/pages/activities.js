@@ -102,7 +102,7 @@ class activities extends React.Component {
                           <Link href='https://hackday.jp/' target='circalgorithm'>
                             <img
                               alt='hackday event 2021 image'
-                              src='/extreme_42_hp/images/hackday.jpg'
+                              src="https://pbs.twimg.com/media/ExGMiW1UUAE7xax?format=jpg&name=large"
                             />
                           </Link>
                         </Fader>
