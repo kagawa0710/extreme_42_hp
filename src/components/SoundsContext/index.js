@@ -1,1 +1,1 @@
-export * from './soundsContext';
+export * from './SoundsContext';
