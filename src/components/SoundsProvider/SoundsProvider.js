@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { createSounds as createSoundsModule } from '../../tools/createSounds';
 import { createPlayer as createPlayerModule } from '../../tools/createPlayer';
-import { SoundsContext } from '../soundsContext';
+import { SoundsContext } from '../SoundsContext';
 
 class Component extends React.PureComponent {
   static propTypes = {

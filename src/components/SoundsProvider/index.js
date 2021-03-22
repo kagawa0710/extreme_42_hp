@@ -1,1 +1,1 @@
-export { Component as SoundsProvider } from './soundsProvider';
+export { Component as SoundsProvider } from './SoundsProvider';
