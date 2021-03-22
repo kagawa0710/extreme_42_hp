@@ -26,7 +26,7 @@ module.exports = [
         intra_name: 'kyuki',
         message: `In hyougo`,
         image: '/extreme_42_hp/images/kyuki.png',
-        link: ''
+        link: 'https://twitter.com/yuuuki81?s=20'
     },
 
   // templete
