@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import meta from '../../settings/meta';
-import sounds from '../../settings/extreme_42_hp/sounds';
-import { SoundsProvider } from '../extreme_42_hp/soundsProvider';
+import sounds from '../../settings/sounds';
+import { SoundsProvider } from '..//soundsProvider';
 
 const Component = ({ children }) => (
   <SoundsProvider>

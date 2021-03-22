@@ -1,5 +1,5 @@
 import { rgba } from 'polished';
-import iconURL from '../../extreme_42_hp/images/favicon.png';
+import iconURL from '../..//images/favicon.png';
 
 const styles = theme => ({
   root: {

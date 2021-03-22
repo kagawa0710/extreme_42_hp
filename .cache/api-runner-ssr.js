@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[],"component":"/Users/kagawayuukana/42tokyo/extreme_42/hp/src/layouts/Template/index.js"},
     },{
       plugin: require('/Users/kagawayuukana/42tokyo/extreme_42/hp/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-64916263-1"},
+      options: {"plugins":[],"trackingId":"UA-64916263-1","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

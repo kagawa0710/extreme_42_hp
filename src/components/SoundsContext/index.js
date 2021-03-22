@@ -1,1 +1,1 @@
-export * from './extreme_42_hp/soundsContext';
+export * from './soundsContext';
