@@ -5,7 +5,7 @@ module.exports = [
     {
         name: 'kagawa yuya',
         intra_name: 'ykagawa',
-        message: `extreme leader`,
+        message: `Leader`,
         image: 'https://pbs.twimg.com/profile_images/1283055935087349766/NakVKBWW.jpg',
         link: 'https://twitter.com/yuuya08110'
     },
