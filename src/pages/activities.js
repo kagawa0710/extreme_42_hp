@@ -95,27 +95,27 @@ class activities extends React.Component {
                             {/* <p className={classes.} */}
                         </div>
                     </div>
-          </div>
-          <div className={classes.albums}>
-            <div className={classes.album}>
-              <Fader className={classes.albumCover}>
-                <Link href='https://hackday.jp/' target='circalgorithm'>
-                  <img
-                    alt='Soul Extract Circadian Algorithm album cover'
-                    src='/extreme_42_hp/images/hackday.jpg'
-                  />
-                </Link>
-              </Fader>
-              <div className={classes.info}>
-                <h3 className={classes.text}>
-                  Hackday Day 2021 __ONLINE__
-                </h3>
-                <p className={classes.message}>
-                  Participated　Extreme member!
-                </p>
-              </div>
-            </div>
-          </div>
+                  </div>
+                    <div className={classes.albums}>
+                      <div className={classes.album}>
+                        <Fader className={classes.albumCover}>
+                          <Link href='https://hackday.jp/' target='circalgorithm'>
+                            <img
+                              alt='Soul Extract Circadian Algorithm album cover'
+                              src='/extreme_42_hp/images/hackday.jpg'
+                            />
+                          </Link>
+                        </Fader>
+                        <div className={classes.info}>
+                          <h3 className={classes.text}>
+                            Hackday Day 2021 __ONLINE__
+                          </h3>
+                          <p className={classes.message}>
+                            Participated　Extreme member!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
             </Secuence>
         </Main>
     );
