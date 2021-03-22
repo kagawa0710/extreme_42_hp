@@ -80,7 +80,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='https://github.com/Code4Yokohama/code4yokohama.github.io/pull/23' target='circalgorithm'>
                                 <img
-                                    alt='Soul Extract Circadian Algorithm album cover'
+                                    alt='pull liquest image'
                                     src='/extreme_42_hp/images/atSotakesan.jpeg'
                                 />
                             </Link>
@@ -101,7 +101,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                           <Link href='https://hackday.jp/' target='circalgorithm'>
                             <img
-                              alt='Soul Extract Circadian Algorithm album cover'
+                              alt='hackday event 2021 image'
                               src='/extreme_42_hp/images/hackday.jpg'
                             />
                           </Link>
