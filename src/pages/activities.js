@@ -99,7 +99,7 @@ class activities extends React.Component {
           <div className={classes.albums}>
             <div className={classes.album}>
               <Fader className={classes.albumCover}>
-                <Link href='hhttps://hackday.jp/' target='circalgorithm'>
+                <Link href='https://hackday.jp/' target='circalgorithm'>
                   <img
                     alt='Soul Extract Circadian Algorithm album cover'
                     src='/extreme_42_hp/images/hackday.jpg'

@@ -25,7 +25,7 @@ module.exports = [
     {
         intra_name: 'kyuki',
         message: `In hyougo`,
-        image: '/extreme_42_hp/images/kyuki.png',
+        image: 'https://pbs.twimg.com/profile_images/1348940660468969476/jBMjPewe_400x400.jpg',
         link: 'https://twitter.com/yuuuki81?s=20'
     },
 
