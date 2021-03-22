@@ -80,14 +80,14 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='https://github.com/Code4Yokohama/code4yokohama.github.io/pull/23' target='circalgorithm'>
                                 <img
-                                    alt='pull liquest image'
+                                    alt='pull request image'
                                     src='/extreme_42_hp/images/atSotakesan.jpeg'
                                 />
                             </Link>
                         </Fader>
                         <div className={classes.info}>
                             <h3 className={classes.text}>
-                                pull liquest
+                                pull request
                                 <br />at Mt.sotakesan
                             </h3>
 
@@ -108,10 +108,10 @@ class activities extends React.Component {
                         </Fader>
                         <div className={classes.info}>
                           <h3 className={classes.text}>
-                            Hackday Day 2021 __ONLINE__
+                            Hackday 2021 __ONLINE__
                           </h3>
                           <p className={classes.message}>
-                            Participated　Extreme member!
+                            Extreme member Participated!
                           </p>
                         </div>
                       </div>
