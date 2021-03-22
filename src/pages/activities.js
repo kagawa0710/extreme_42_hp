@@ -101,7 +101,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                           <Link href='https://hackday.jp/' target='circalgorithm'>
                             <img
-                              alt='hackday event 2021 image'
+                              alt='hackday-event 2021 image'
                               src="https://pbs.twimg.com/media/ExGMiW1UUAE7xax?format=jpg&name=large"
                             />
                           </Link>
