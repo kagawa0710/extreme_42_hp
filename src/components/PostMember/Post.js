@@ -70,14 +70,14 @@ class Component extends React.Component {
       ...etc
     } = this.props;
 
-    const messageTexts = data.message
-      .split('\n')
-      .map((fragment, index) => (
-        <React.Fragment key={index}>
-          {index !== 0 && <br />}
-          <Text audio={audio}>{fragment}</Text>
-        </React.Fragment>
-      ));
+    // const messageTexts = data.message
+    //   .split('\n')
+    //   .map((fragment, index) => (
+    //     <React.Fragment key={index}>
+    //       {index !== 0 && <br />}
+    //       <Text audio={audio}>{fragment}</Text>
+    //     </React.Fragment>
+    //   ));
 
     return (
       <article className={cx(classes.root, className)} {...etc}>

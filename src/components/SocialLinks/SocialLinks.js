@@ -89,15 +89,15 @@ class Component extends React.PureComponent {
       ...etc
     } = this.props;
 
-    const A = elprops => (
-      <Link
-        className={cx(classes.item, itemClassName)}
-        onLinkStart={onLinkStart}
-        onLinkEnd={onLinkEnd}
-        onMouseEnter={() => sounds.hover.play()}
-        {...elprops}
-      />
-    );
+    // const A = elprops => (
+    //   <Link
+    //     className={cx(classes.item, itemClassName)}
+    //     onLinkStart={onLinkStart}
+    //     onLinkEnd={onLinkEnd}
+    //     onMouseEnter={() => sounds.hover.play()}
+    //     {...elprops}
+    //   />
+    // );
 
     return (
       <div

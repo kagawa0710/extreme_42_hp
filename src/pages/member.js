@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import memberPosts from '../data/member';
 import { withStyles } from '../tools/withStyles';
-import { Link } from '../components/Link';
+// import { Link } from '../components/Link';
 import { Main } from '../components/Main';
 import { Post } from '../components/PostMember';
 import { Secuence } from '../components/Secuence';

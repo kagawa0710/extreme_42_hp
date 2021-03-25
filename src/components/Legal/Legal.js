@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
-import { Text } from '../Text';
-import { Link } from '../Link';
+// import { Text } from '../Text';
+// import { Link } from '../Link';
 
 class Component extends React.Component {
   static displayName = 'Legal';
@@ -33,8 +33,8 @@ class Component extends React.Component {
       onLinkEnd,
       ...etc
     } = this.props;
-    const { animate, duration } = energy;
-    const show = energy.entering || energy.entered;
+    // const { animate, duration } = energy;
+    // const show = energy.entering || energy.entered;
 
     return (
       <p

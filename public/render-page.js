@@ -48145,7 +48145,7 @@ class Component extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }, etc), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_4__["Link"], {
       className: classes.link,
       href: link,
-      title: "42_Extreme logo",
+      title: "42_Extreme logout",
       onLinkStart: onLinkStart,
       onLinkEnd: onLinkEnd
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -48158,31 +48158,40 @@ class Component extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onMouseEnter: () => sounds.hover.play()
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M405,29 L405,81 L493,81 L493,29"
+      d: "M290,2 L290,81 L369,81"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M520,2 L520,81 L599,81"
+      d: "M317,46 L333,46"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M547,46 L563,46"
+      d: "M308,10 L394,10 L474,90 M386,90 L474,2"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M538,10 L624,10 L704,90 M616,90 L704,2"
+      d: "M481,10 L603,10 M523,18 L523,89"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M711,10 L833,10 M753,18 L753,89"
+      d: "M611,89 L611,10 L699,10 L699,46 L623,46 L699,77"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M841,89 L841,10 L929,10 L929,46 L853,46 L879,77"
+      d: "M740,2 L740,81 L819,81"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M953,89 L953,10 L1041,10 L1041,89 M961,46 L1033,46"
+      d: "M767,46 L783,46"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M1126,10 L1068,10 L1068,81 L1181,81"
+      d: "M758,10 L819,10"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
       className: classes.path,
-      d: "M1141,10 L1400,10 M1199,18 L1199,89"
+      d: "M850,100 L850,0 L890,70 L940,0, L940,100"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+      className: classes.path,
+      d: "M980,2 L980,81 L1059,81"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+      className: classes.path,
+      d: "M1003,46 L1023,46"
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+      className: classes.path,
+      d: "M992,10 L1059,10"
     }))));
   }
 
@@ -49731,13 +49740,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Text__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Text */ "./src/components/Text/index.js");
-/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Link */ "./src/components/Link/index.js");
 
 
-
-
-
+ // import { Text } from '../Text';
+// import { Link } from '../Link';
 
 class Component extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
@@ -49752,12 +49758,9 @@ class Component extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onLinkStart,
       onLinkEnd,
       ...etc
-    } = this.props;
-    const {
-      animate,
-      duration
-    } = energy;
-    const show = energy.entering || energy.entered;
+    } = this.props; // const { animate, duration } = energy;
+    // const show = energy.entering || energy.entered;
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", Object.assign({
       className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(classes.root, className)
     }, etc));
@@ -50915,14 +50918,15 @@ class Component extends react__WEBPACK_IMPORTED_MODULE_0___default.a.PureCompone
       onLinkStart,
       onLinkEnd,
       ...etc
-    } = this.props;
-
-    const A = elprops => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_4__["Link"], Object.assign({
-      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(classes.item, itemClassName),
-      onLinkStart: onLinkStart,
-      onLinkEnd: onLinkEnd,
-      onMouseEnter: () => sounds.hover.play()
-    }, elprops));
+    } = this.props; // const A = elprops => (
+    //   <Link
+    //     className={cx(classes.item, itemClassName)}
+    //     onLinkStart={onLinkStart}
+    //     onLinkEnd={onLinkEnd}
+    //     onMouseEnter={() => sounds.hover.play()}
+    //     {...elprops}
+    //   />
+    // );
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object.assign({
       className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(classes.root, className),
