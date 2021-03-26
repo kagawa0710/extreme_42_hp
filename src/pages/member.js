@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import memberPosts from '../data/member';
 import { withStyles } from '../tools/withStyles';
 // import { Link } from '../components/Link';
-import Header from '../components/Header'
+import header from '../components/Header'
 import { Main } from '../components/Main';
 import { Post } from '../components/PostMember';
 import { Secuence } from '../components/Secuence';
@@ -28,9 +28,9 @@ class Member extends React.Component {
         return (
             <Main className={classes.root}>
                 <Secuence stagger>
-                    <Header>
+                    <header>
                         <h1><Text>Member</Text></h1>
-                    </Header>
+                    </header>
                     {memberPosts.map((post, index) => (
                         <Post
                             key={index}
