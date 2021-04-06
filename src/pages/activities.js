@@ -60,7 +60,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='' target='circalgorithm'>
                                 <img
-                                    alt='pampkin event image'
+                                    alt='pampkin event'
                                     src='/extreme_42_hp/images/pampkin.png'
                                 />
                             </Link>
@@ -81,7 +81,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='https://github.com/Code4Yokohama/code4yokohama.github.io/pull/23' target='circalgorithm'>
                                 <img
-                                    alt='pull request image'
+                                    alt='pull request'
                                     src='/extreme_42_hp/images/atSotakesan.jpeg'
                                 />
                             </Link>
@@ -102,7 +102,7 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                           <Link href='https://hackday.jp/' target='circalgorithm'>
                             <img
-                              alt='hackday-event 2021 image'
+                              alt='hackday-event 2021'
                               src="https://pbs.twimg.com/media/ExGMiW1UUAE7xax?format=jpg&name=large"
                             />
                           </Link>

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import anime from 'animejs';
 
-import { Link } from '../Link';
-
 class Component extends React.PureComponent {
   static displayName = 'SocialLinks';
 
