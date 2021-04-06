@@ -5,7 +5,7 @@ module.exports = [
   {
     title: 'create homepage',
     image: '',
-    message: `Our website is now open!`,
+    message: `Our website open!`,
     link: 'https://42tokyo.jp/',
     imege: '..//images/josh-mullis-family.jpg',
   },
