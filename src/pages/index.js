@@ -5,7 +5,6 @@ import { withStyles } from '../tools/withStyles';
 import { Secuence } from '../components/Secuence';
 import { Brand } from '../components/Brand';
 import { Menu } from '../components/Menu';
-// import { SocialLinks } from '../components/SocialLinks';
 import { Legal } from '../components/Legal';
 
 const styles = theme => {
