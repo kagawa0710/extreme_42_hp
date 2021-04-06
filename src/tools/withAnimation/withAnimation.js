@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 
-import { Animation } from '../Animation';
-import { AnimationContext } from '../AnimationContext';
+import { Animation } from '../../components/Animation';
+import { AnimationContext } from '../../components/AnimationContext';
 
 function withAnimation (providedOptions) {
   const options = {
