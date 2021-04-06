@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 import newsPosts from '../data/news';
 import { withStyles } from '../tools/withStyles';
-import { Link } from 'Link';
-import { Main } from 'Main';
-import { Post } from 'Post';
-import { Secuence } from 'Secuence';
-import { Text } from 'Text';
+import { Link } from '../components/Link';
+import { Main } from '../components/Main';
+import { Post } from '../components/Post';
+import { Secuence } from '../components/Secuence';
+import { Text } from '../components/Text';
 
 const styles = theme => ({
   root: {},

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import memberPosts from '../data/member';
 import { withStyles } from '../tools/withStyles';
-import { Main } from 'Main';
-import { Post } from 'PostMember';
-import { Secuence } from 'Secuence';
-import { Text } from 'Text';
+import { Main } from '../components/Main';
+import { Post } from '../components/PostMember';
+import { Secuence } from '../components/Secuence';
+import { Text } from '../components/Text';
 
 const styles = theme => ({
     root: {},
