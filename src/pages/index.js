@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { withStyles } from '../tools/withStyles';
-import { Secuence } from '../components/Secuence';
-import { Brand } from '../components/Brand';
-import { Menu } from '../components/Menu';
-import { Legal } from '../components/Legal';
+import { Secuence } from 'Secuence';
+import { Brand } from 'Brand';
+import { Menu } from 'Menu';
+import { Legal } from 'Legal';
 
 const styles = theme => {
   return {

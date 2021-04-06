@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Layout } from '../../components/Layout';
-import { Background } from '../../components/Background';
-import { App } from '../../components/App';
-import { Popup } from '../../components/Popup';
+import { Layout } from '../Layout';
+import { Background } from '../Background';
+import { App } from '../App';
+import { Popup } from '../Popup';
 
 class Component extends React.Component {
   static displayName = 'Template';

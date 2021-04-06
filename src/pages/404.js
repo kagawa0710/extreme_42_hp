@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { withStyles } from '../tools/withStyles';
-import { Text } from '../components/Text';
-import { Button } from '../components/Button';
-import { Link } from '../components/Link';
-import { Secuence } from '../components/Secuence';
+import { Text } from 'Text';
+import { Button } from 'Button';
+import { Link } from 'Link';
+import { Secuence } from 'Secuence';
 
 const styles = theme => ({
   root: {

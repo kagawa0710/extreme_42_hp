@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '../tools/withStyles';
-import { Main } from '../components/Main';
-import { Text } from '../components/Text';
-import { Secuence } from '../components/Secuence';
+import { Main } from 'Main';
+import { Text } from 'Text';
+import { Secuence } from 'Secuence';
 
 const styles = theme => ({
   root: {}
