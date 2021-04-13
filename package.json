@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "license": "GNUv3",
-  "homepage": "https://kagawa0710.github.io/extreme_42_hp/",
+  "homepage": "https://kagawa0710.github.io/",
   "scripts": {
     "lint": "eslint ./src",
     "develop": "gatsby develop --host 0.0.0.0 --port 14000",
