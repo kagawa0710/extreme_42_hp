@@ -27,8 +27,8 @@ jobs:
     - name: install
       run: npm install
 
-    - name: clean
-      run: gatsby clean
+    # - name: clean
+    #   run: gatsby clean
 
     # - name: test
     #   run: npm run test
