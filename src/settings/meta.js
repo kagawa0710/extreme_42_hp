@@ -4,6 +4,6 @@ module.exports = {
   keywords: '',
   url: 'https://kagawa0710.github.io/',
   twitter: '@42_extreme',
-  seoImage: 'https://42_extreme.com/extreme_42_hp/images/background.jpg',
+  seoImage: 'https://kagawa0710.github.io/extreme_42_hp/images/background.jpg',
   color: '#000000'
 };
