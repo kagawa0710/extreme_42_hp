@@ -11,8 +11,8 @@ module.exports = [
     },
     {
         name: 'kurosu sho',
-        intra_name: 'skurosu',
-        message: `kusoru dayo`,
+        intra_name: 'skurosu tech',
+        message: `I got a job`,
         image: 'https://pbs.twimg.com/profile_images/1320210198036762624/bJuKGt3H.jpg',
         link: 'https://twitter.com/skurosu42'
     },
