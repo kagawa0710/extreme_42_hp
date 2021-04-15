@@ -56,7 +56,12 @@ module.exports = [
         image: 'https://pbs.twimg.com/profile_images/1369297003373531143/8OKHVYz-_400x400.jpg',
         link: 'https://twitter.com/sleepyfox_42'
     },
-
+    {
+        intra_name: 'kmatsusa',
+        message: `I hit a home run  more than ohtani. And throw a ball faster than ohtani.`,
+        image: 'https://pbs.twimg.com/profile_images/1367457260503404545/kL5pJndU_400x400.jpg',
+        link: 'https://twitter.com/mushroom_doushi'
+    },
   // templete
   // {
         // name: '',
