@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         intra_name: 'otaishi',
-        message: `I lobe camp`,
+        message: `I love camp`,
         image: 'https://pbs.twimg.com/profile_images/1326982171043622912/rqwjb3G4_400x400.jpg',
         link: 'https://twitter.com/otaishi2000'
     },
