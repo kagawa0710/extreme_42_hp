@@ -24,9 +24,9 @@ class About extends React.Component {
             <header>
               <h1><Text>About Extreme_coding_assosiation </Text></h1>
             </header>
-            <p><Text>We “Extreme Coding Association” is  assosiation  from 42tokyo. Core members are made up of 42tokyo students.</Text></p>
-            <p><Text>We enjoy writing code in extreme situations. For example, I send pull requests at the top of the mountain or write code in a blindfold.</Text></p>
-            <p><Text>look forward to your participation！</Text></p>
+            <p><Text>We Extreme Coding Association is an association from 42tokyo. Core members consist of 42tokyo students.</Text></p>
+            <p><Text>We love writing code in extreme situations, like sending pull requests at the top of the mountain or coding in a blindfold.</Text></p>
+            <p><Text>Looking forward to your participation!</Text></p>
           </Secuence>
         </article>
       </Main>
