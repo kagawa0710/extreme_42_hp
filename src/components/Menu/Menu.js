@@ -189,7 +189,7 @@ class Component extends React.PureComponent {
           ref={ref => (this.element = ref)}
           {...etc}
         >
-          <Link href='extreme_42_hp/news' {...linkProps}>
+          <Link href='/extreme_42_hp/news' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
@@ -198,7 +198,7 @@ class Component extends React.PureComponent {
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='extreme_42_hp/activities' {...linkProps}>
+          <Link href='/extreme_42_hp/activities' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
@@ -207,7 +207,7 @@ class Component extends React.PureComponent {
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='extreme_42_hp/member' {...linkProps}>
+          <Link href='/extreme_42_hp/member' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
@@ -216,7 +216,7 @@ class Component extends React.PureComponent {
             </Text>
           </Link>
           <b className={cx(classes.item, classes.divisor)}>|</b>
-          <Link href='extreme_42_hp/about' {...linkProps}>
+          <Link href='/extreme_42_hp/about' {...linkProps}>
             <Text
               animation={{ animate: animateText }}
               audio={{ silent: !animateText }}
