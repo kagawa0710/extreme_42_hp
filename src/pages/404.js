@@ -33,7 +33,7 @@ class NotFound extends React.PureComponent {
           <Secuence ref={ref => (this.secuenceElement = ref)}>
             <h1><Text>Not found</Text></h1>
             <p><Text>The location you are looking for was not found in the system.</Text></p>
-            <Link href='/'>
+            <Link href='/extreme_42_hp/'>
               <Button onClick={this.onStart}>Go to Start</Button>
             </Link>
           </Secuence>
