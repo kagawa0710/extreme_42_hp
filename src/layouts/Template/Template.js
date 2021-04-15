@@ -59,7 +59,7 @@ class Component extends React.Component {
     const { show, enterShow, enterAnimationShow } = this.state;
     const { location, classes, layout, background, children } = this.props;
 
-    const isURLContent = ['/news', '/activities', '/member', '/about'].find(path => {
+    const isURLContent = ['/extreme_42_hp/news', '/extreme_42_hp/activities', '/extreme_42_hp/member', '/extreme_42_hp/about'].find(path => {
       return location.pathname.indexOf(path) === 0;
     });
 
