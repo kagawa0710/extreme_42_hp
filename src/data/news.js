@@ -7,7 +7,7 @@ module.exports = [
     image: '',
     message: `Our website open!`,
     link: 'https://42tokyo.jp/',
-    imege: '..//images/josh-mullis-family.jpg',
+    imege: '../images/42tokyo.png',
   },
   // {
   //   title: '',
