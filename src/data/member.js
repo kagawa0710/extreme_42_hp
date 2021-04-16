@@ -62,6 +62,11 @@ module.exports = [
         image: 'https://pbs.twimg.com/profile_images/1367457260503404545/kL5pJndU_400x400.jpg',
         link: 'https://twitter.com/mushroom_doushi'
     },
+    {
+        intra_name: 'snara',
+        message: `There is no language I can't know.`,
+        image: 'https://i.gyazo.com/1c9038d96f02368ceae9eff363c6a8e8.jpg',
+    },
   // templete
   // {
         // name: '',
