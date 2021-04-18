@@ -69,7 +69,7 @@ module.exports = [
     },
     {
         intra_name: 'ktakesat',
-        message: ``,
+        message: `We can do it`,
         image: 'https://pbs.twimg.com/profile_images/1275459930770661382/4vum9kIN_400x400.jpg',
         link: 'https://twitter.com/mushroom_doushi',
         },
