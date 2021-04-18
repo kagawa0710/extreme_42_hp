@@ -27,7 +27,7 @@ module.exports = [
         link: 'https://twitter.com/yuuuki81?s=20'
     },
     {
-        intra_name: 'yhamakay',
+        intra_name: 'yhakamay',
         message: `I have a very cute girlfriend.`,
         image: 'https://pbs.twimg.com/profile_images/1362182832454426624/bYHWCBVu_400x400.jpg',
         link: 'https://twitter.com/yhakamay'
