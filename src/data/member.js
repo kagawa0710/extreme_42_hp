@@ -67,6 +67,12 @@ module.exports = [
         message: `There is no language I can't know.`,
         image: 'https://i.gyazo.com/1c9038d96f02368ceae9eff363c6a8e8.jpg',
     },
+    {
+        intra_name: 'ktakesat',
+        message: ``,
+        image: 'https://pbs.twimg.com/profile_images/1275459930770661382/4vum9kIN_400x400.jpg',
+        link: 'https://twitter.com/mushroom_doushi',
+        },
   // templete
   // {
         // name: '',
