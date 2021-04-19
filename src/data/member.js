@@ -72,7 +72,13 @@ module.exports = [
         message: `We can do it`,
         image: 'https://pbs.twimg.com/profile_images/1275459930770661382/4vum9kIN_400x400.jpg',
         link: 'https://twitter.com/mushroom_doushi',
-        },
+    },
+    {
+        intra_name: 'tyamagishi',
+        message: `あqwせdrftgyふじこlp；`,
+        image: 'https://pbs.twimg.com/profile_images/1285484868965564417/JsjLoanz_400x400.jpg',
+        link: 'https://twitter.com/luna_yuta',
+    },
   // templete
   // {
         // name: '',
