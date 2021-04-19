@@ -75,7 +75,7 @@ module.exports = [
     },
     {
         intra_name: 'tyamagishi',
-        message: `あqwせdrftgyふじこlp；`,
+        message: `くぁwせdrftgyふじこlp`,
         image: 'https://pbs.twimg.com/profile_images/1285484868965564417/JsjLoanz_400x400.jpg',
         link: 'https://twitter.com/luna_yuta',
     },
