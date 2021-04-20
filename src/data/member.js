@@ -27,6 +27,12 @@ module.exports = [
         link: 'https://twitter.com/yuuuki81?s=20'
     },
     {
+        intra_name: 'htomohit',
+        message: `In hyougo`,
+        image: 'https://pbs.twimg.com/profile_images/1355400749941878784/XELaZE1L_400x400.jpg',
+        link: 'https://twitter.com/hontomo0625'
+    },
+    {
         intra_name: 'yhakamay',
         message: `I have a very cute girlfriend.`,
         image: 'https://pbs.twimg.com/profile_images/1362182832454426624/bYHWCBVu_400x400.jpg',
