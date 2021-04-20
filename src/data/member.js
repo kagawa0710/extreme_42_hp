@@ -86,7 +86,7 @@ module.exports = [
         link: 'https://twitter.com/mushroom_doushi',
     },
     {
-        intra_name: 'tyamagishi',
+        intra_name: '#_0x26',
         message: `くぁwせdrftgyふじこlp`,
         image: 'https://pbs.twimg.com/profile_images/1285484868965564417/JsjLoanz_400x400.jpg',
         link: 'https://twitter.com/luna_yuta',
