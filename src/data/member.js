@@ -57,6 +57,12 @@ module.exports = [
         link: 'https://twitter.com/_unlimish'
     },
     {
+        intra_name: 'hkikuchi',
+        message: `I love dirty jokes.`,
+        image: 'https://pbs.twimg.com/profile_images/1228560309754839042/KIXYm2gC_400x400.jpg',
+        link: 'https://twitter.com/Hinata72279726'
+    },
+    {
         intra_name: 'sleepyfox',
         message: `I always want to sleep`,
         image: 'https://pbs.twimg.com/profile_images/1369297003373531143/8OKHVYz-_400x400.jpg',
