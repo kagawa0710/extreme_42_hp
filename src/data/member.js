@@ -53,7 +53,7 @@ module.exports = [
     {
         intra_name: 'unlimish',
         message: `I'm a guru`,
-        image: 'https://pbs.twimg.com/profile_images/1409335110684475396/hxNz8txk_400x400.jpg',
+        image: 'https://pbs.twimg.com/profile_images/1397558407763165189/QYVsuQXP_400x400.jpg',
         link: 'https://twitter.com/_unlimish'
     },
     {
