@@ -97,6 +97,26 @@ class activities extends React.Component {
                         </div>
                     </div>
                   </div>
+                  <div className={classes.albums}>
+                      <div className={classes.album}>
+                        <Fader className={classes.albumCover}>
+                          <Link href='https://github.com/yukimiii/47prefecture' target='circalgorithm'>
+                            <img
+                              alt='47prefecture_challenge'
+                              src="/extreme_42_hp/images/nihonchizu.png"
+                            />
+                          </Link>
+                        </Fader>
+                        <div className={classes.info}>
+                          <h3 className={classes.text}>
+                            47prefecture_challenge
+                          </h3>
+                          <p className={classes.message}>
+                            underchallenge!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                     <div className={classes.albums}>
                       <div className={classes.album}>
                         <Fader className={classes.albumCover}>
