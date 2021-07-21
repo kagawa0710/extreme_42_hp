@@ -91,6 +91,12 @@ module.exports = [
         image: 'https://pbs.twimg.com/profile_images/1285484868965564417/JsjLoanz_400x400.jpg',
         link: 'https://twitter.com/luna_yuta',
     },
+    {
+        intra_name: 'rakiyama',
+        message: `I guess ...`,
+        image: 'https://pbs.twimg.com/profile_images/1375608693828415491/dRRqoze7_400x400.jpg',
+        link: 'https://twitter.com/ZushiZryojiro',
+    },
   // templete
   // {
         // name: '',
