@@ -60,6 +60,27 @@ class activities extends React.Component {
                         <Fader className={classes.albumCover}>
                             <Link href='' target='circalgorithm'>
                                 <img
+                                    alt='hottanjho'
+                                    src='/extreme_42_hp/images/hottanjho.JPG'
+                                />
+                            </Link>
+                        </Fader>
+                        <div className={classes.info}>
+                            <h3 className={classes.text}>
+                                
+                            </h3>
+
+                            <p className={classes.message}>
+                            </p>
+                            {/* <p className={classes.} */}
+                        </div>
+                    </div>
+                </div>
+                <div className={classes.albums}>
+                    <div className={classes.album}>
+                        <Fader className={classes.albumCover}>
+                            <Link href='' target='circalgorithm'>
+                                <img
                                     alt='pampkin event'
                                     src='/extreme_42_hp/images/pampkin.png'
                                 />
@@ -67,12 +88,11 @@ class activities extends React.Component {
                         </Fader>
                         <div className={classes.info}>
                             <h3 className={classes.text}>
-                                Halloween event
+                              pull request
+                                  <br />at Mt.hottanjho
                             </h3>
-
                             <p className={classes.message}>
                             </p>
-                            {/* <p className={classes.} */}
                         </div>
                     </div>
                 </div>
