@@ -61,6 +61,24 @@ class activities extends React.Component {
             <div className={classes.album}>
               <Fader className={classes.albumCover}>
                 <Link href="" target="circalgorithm">
+                  <img
+                    alt="kagenobu"
+                    src="/extreme_42_hp/images/kagenobuyama.jpeg"
+                  />
+                </Link>
+              </Fader>
+              <div className={classes.info}>
+                <h3 className={classes.text}></h3>
+
+                <p className={classes.message}></p>
+                {/* <p className={classes.} */}
+              </div>
+            </div>
+          </div>
+          <div className={classes.albums}>
+            <div className={classes.album}>
+              <Fader className={classes.albumCover}>
+                <Link href="" target="circalgorithm">
                   <img alt="sauna" src="/extreme_42_hp/images/sauna.png" />
                 </Link>
               </Fader>
