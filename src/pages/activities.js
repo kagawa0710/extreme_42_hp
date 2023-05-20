@@ -62,14 +62,34 @@ class activities extends React.Component {
               <Fader className={classes.albumCover}>
                 <Link href="" target="circalgorithm">
                   <img
+                    alt="ishigakijima_maboroshinoshima"
+                    src="/extreme_42_hp/images/ishigakijima_maboroshinoshima.JPG"
+                  />
+                </Link>
+              </Fader>
+              <div className={classes.info}>
+                <h3 className={classes.text}>
+                  Programming at "Maboroshi Island(Ishigamijima)"
+                </h3>
+                <p className={classes.message}></p>
+                {/* <p className={classes.} */}
+              </div>
+            </div>
+          </div>
+          <div className={classes.albums}>
+            <div className={classes.album}>
+              <Fader className={classes.albumCover}>
+                <Link href="" target="circalgorithm">
+                  <img
                     alt="kagenobu"
                     src="/extreme_42_hp/images/kagenobuyama.jpeg"
                   />
                 </Link>
               </Fader>
               <div className={classes.info}>
-                <h3 className={classes.text}></h3>
-
+                <h3 className={classes.text}>
+                  programming at "Hike to Mt.Kagenobu-yama"
+                </h3>
                 <p className={classes.message}></p>
                 {/* <p className={classes.} */}
               </div>
@@ -83,8 +103,7 @@ class activities extends React.Component {
                 </Link>
               </Fader>
               <div className={classes.info}>
-                <h3 className={classes.text}></h3>
-
+                <h3 className={classes.text}>programming at "sauna"</h3>
                 <p className={classes.message}></p>
                 {/* <p className={classes.} */}
               </div>
@@ -101,8 +120,7 @@ class activities extends React.Component {
                 </Link>
               </Fader>
               <div className={classes.info}>
-                <h3 className={classes.text}></h3>
-
+                <h3 className={classes.text}>programming at "Mt. hottanjho"</h3>
                 <p className={classes.message}></p>
                 {/* <p className={classes.} */}
               </div>
@@ -119,11 +137,7 @@ class activities extends React.Component {
                 </Link>
               </Fader>
               <div className={classes.info}>
-                <h3 className={classes.text}>
-                  pull request
-                  <br />
-                  at Mt.hottanjho
-                </h3>
+                <h3 className={classes.text}>Hold Halloween event</h3>
                 <p className={classes.message}></p>
               </div>
             </div>
@@ -185,38 +199,6 @@ class activities extends React.Component {
               <div className={classes.info}>
                 <h3 className={classes.text}>Hackday 2021 __ONLINE__</h3>
                 <p className={classes.message}>Extreme member Participated!</p>
-              </div>
-            </div>
-          </div>
-          {/* <div className={classes.albums}>
-            <div className={classes.album}>
-              <Fader className={classes.albumCover}>
-                <img
-                  alt="ishigakijima_maboroshinoshima"
-                  src="/extreme_42_hp/images/ishigakijima_maboroshinoshima.JPG"
-                />
-              </Fader>
-              <div className={classes.info}>
-                <h3 className={classes.text}>at maboroshinoshima</h3>
-                <p className={classes.message}>underchallenge!</p>
-              </div>
-            </div>
-          </div> */}
-          <div className={classes.albums}>
-            <div className={classes.album}>
-              <Fader className={classes.albumCover}>
-                <Link href="" target="circalgorithm">
-                  <img
-                    alt="ishigakijima_maboroshinoshima"
-                    src="/extreme_42_hp/images/ishigakijima_maboroshinoshima.JPG"
-                  />
-                </Link>
-              </Fader>
-              <div className={classes.info}>
-                <h3 className={classes.text}></h3>
-
-                <p className={classes.message}></p>
-                {/* <p className={classes.} */}
               </div>
             </div>
           </div>
